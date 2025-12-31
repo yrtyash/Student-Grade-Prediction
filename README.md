@@ -1,20 +1,20 @@
 # Student Grade Prediction (Regression)
 
-##Overview
+## Overview
 This project predicts a student's final grade using early academic indicators such as study time, past failures, and previous grades.
 
-##Dataset
+## Dataset
 - Source: Student Performance dataset (Kaggle / UCI)
 - Samples: 395 students
 - Target: Final grade(G3)
 
-##Approach
+## Approach
 - Framed as a regression problem
 - Baseline: Mean grade predictor
 - Model: Linear Regression
 - Evaluation metric: RMSE
 
-##Key Insights
+## Key Insights
 - Previous grades are strong predictors of final performance
 - Linear Regression significantly outperforms a no-skill baseline
 - Errors are higher for mid-range grades, indicating unobserved factors
